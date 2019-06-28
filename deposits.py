@@ -9,8 +9,7 @@ import pandas as pd
 
 df = pd.read_csv('All_Reports_20190331_Assets and Liabilities.csv', 
                  usecols = ['name','asset','liabeq', 'liab','dep','iddepinr']) 
-                #theres a lot of shit here, these are the columns 
-                #that looks kinda useful
+                #theres a lot of shit here, these are the columns that looks kinda useful
 """   
 From the documentation:
 liaeq = Total liabilities, limited-life preferred stock and equity capital.
